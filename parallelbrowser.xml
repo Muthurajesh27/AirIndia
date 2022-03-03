@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="Tests">
+  <test name="chrome">
+  <Parameters name="browser" value="chrome"></Parameters>
+  <classes>
+  <class name = "org.testNG" />
+  </classes>
+  </test>
+  <test name="firefox">
+  <Parameters name="browser" value="gecko"></Parameters>
+  <classes>
+  <class name = "org.testNG" />
+  </classes>
+  </test>
+  <test name="ie">
+  <Parameters name="browser" value="ie"></Parameters>
+  <classes>
+  <class name = "org.testNG" />
+  </classes>
+  </test>
+</suite> 
